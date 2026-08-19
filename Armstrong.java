@@ -1,5 +1,6 @@
 // Program no : 04
 // Armstrong Number
+// output : 153, 370, 371, 407
 
 import java.util.Scanner;
 

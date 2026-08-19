@@ -2,10 +2,10 @@
 Program no : 22
 Student class with 3 object
 
-Output : Enter password: 111111
-         Enter password: 222222
-         Enter password: 515363
-         Access Granted!
+Output : Enter 3 students name and age: Nayem 23 Nabil 22 Rayhan 25
+Nayem 23
+Nabil 22
+Rayhan 25
 */
 
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 // Program no : 14
 // Java Pyramid
-// Output : Enter a number of rows :
+// Output : Enter a number of rows : 10
 
 import java.util.Scanner;
 

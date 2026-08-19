@@ -1,10 +1,9 @@
-// Program no : 03
-// Palindrome Number
-// output : 121
+// Program no : 04
+// Armstrong Number
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class Armstrong {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -13,18 +12,18 @@ public class Palindrome {
         int num = sc.nextInt();
 
         int original = num;
-        int reverse = 0;
+        int sum = 0;
 
         while (num != 0) {
             int digit = num % 10;
-            reverse = reverse * 10 + digit;
+            sum = sum + digit * digit * digit;
             num = num / 10;
         }
 
-        if (original == reverse) {
-            System.out.println("Palindrome Number");
+        if (original == sum) {
+            System.out.println("Armstrong Number");
         } else {
-            System.out.println("Not a Palindrome Number");
+            System.out.println("Not an Armstrong Number");
         }
     }
 }

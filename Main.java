@@ -3,9 +3,9 @@ Program no : 22
 Student class with 3 object
 
 Output : Enter 3 students name and age: Nayem 23 Nabil 22 Rayhan 25
-Nayem 23
-Nabil 22
-Rayhan 25
+                                        Nayem 23
+                                                 Nabil 24
+                                                          Rayhan 25
 */
 
 import java.util.Scanner;

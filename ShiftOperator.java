@@ -2,6 +2,9 @@
 Program no : 24
 Use of shift operator
 
+Left Shift  = [ left number x 2 ]
+Right Shift = [ right number / 2 ]
+
 Output :      Enter a number: 10
         Left Shift (n << 1) = 20
         Right Shift (n >> 1) = 5
